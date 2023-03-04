@@ -8,20 +8,17 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  mes,
+  acc,
+  cict,
+  usc,
+  nipyum,
+  portfolio,
   threejs,
 } from "../assets";
 
@@ -54,7 +51,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Machine Learning Engineer",
     icon: creator,
   },
 ];
@@ -81,20 +78,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "Three JS",
@@ -116,55 +105,42 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Malinao Elementary School",
+    company_name: "Elementary",
+    icon: mes,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2008 - March 2014",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I skipped kindergaten and directly enrolled in Grade I.",
+      "I was promoted to the Star Section (SPED) when I reached Grade II.",
+      "I participated in various extracurricular activities, particularly in BSP and academic workshops for journalism.",
+      "I finished elementary school with academic honors, except during Grade II.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Aklan Catholic College",
+    company_name: "Junior & Senior High School",
+    icon: acc,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2014 - March 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "My first experience studying outside of my town.",
+      "I finished high school as one of the top students across all sections.",
+      "I developed and implemented the first automated student council government election in my school.",
+      "I graduated from senior high school with academic honors and ranked in the top 5% of all students.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "WVSU - College of ICT",
+    company_name: "College",
+    icon: cict,
+    iconBg: "#383E56",
+    date: "August 2020 - Current",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I received a silver medal award upon completing my freshman year.",
+      "I received a gold medal award upon completing my sophomore year.",
+      "I participated in a team for the Hackathon 2021 event.",
+      "I joined CITE as the main front-end developer for the USC Infosite project.",
     ],
   },
 ];
@@ -198,16 +174,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "USC Infosite (Beta)",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The USC Student-Led Infosite is developed and managed by the USC - Committee on Innovation and Tech Empowerment. CITE is established to manage the information system of the USC, and to bring forward innovation that are beneficial to the students and the university.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "vite",
         color: "green-text-gradient",
       },
       {
@@ -215,20 +191,21 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: usc,
+    web_link: 'https://fastnetphbyrus.com/',
+    source_code_link: "https://github.com/r-amee/USCINFOSITE-NA/blob/main/README.md",
   },
   {
-    name: "Job IT",
+    name: "Nippon Yum",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Discover NipponYum (NipYum), a responsive Japanese restaurant website template featuring online ordering and payment. Our final project showcases our user-friendly design. The website is optimized for different devices and screen sizes, making it accessible to a broader range of customers.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
@@ -236,29 +213,30 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: nipyum,
+    web_link: 'https://fastnetphbyrus.com/NipponYum/',
+    source_code_link: "https://github.com/r-amee/NipYumWeb",
   },
   {
-    name: "Trip Guide",
+    name: "Portfolio Madness",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Welcome to Portfolio Madness, a personal web portfolio showcasing my skills and experiences through a space-themed design and eye-catching web animations. My portfolio represents my passion for learning and my commitment to delivering high-quality work.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "framermotion",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://github.com/r-amee/PortfolioMadness",
   },
 ];
 
