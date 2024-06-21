@@ -72,7 +72,7 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
+        <p className={`${styles.sectionSubText} `}>Our work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
@@ -81,14 +81,9 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Here you can find a collection of my projects showcasing my skills,
+          Here you can find a collection of our projects showcasing our skills,
           experiences, and passion for creating something using diverse
-          technologies. Each project includes a brief description, code
-          repositories, and live demos, allowing you to see my developing skills
-          in action. Whether it's building a web application, developing a
-          mobile app, or creating a machine learning model, I approach each
-          project with a unique perspective and strive to deliver high-quality
-          results.
+          technologies. We are always looking for new challenges and exciting projects to work on.
         </motion.p>
       </div>
 

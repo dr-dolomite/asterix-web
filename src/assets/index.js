@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -18,21 +17,19 @@ import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
 
-import cict from "./company/cict.svg";
-import mes from "./company/mes.png";
-import acc from "./company/acc.png";
+import logo from "./logo.svg";
+
 
 import usc from "./usc.png";
 import nipyum from "./nipyum.png";
-import portfolio from "./portfolio.png";
+import binhi from "./binhi.png";
 
 import profile from "./profile.png";
 import stamp from "./stamp.png";
 
-
 export {
-  logo,
   backend,
   creator,
   mobile,
@@ -51,12 +48,11 @@ export {
   tailwind,
   typescript,
   threejs,
-  cict,
-  mes,
-  acc,
+  python,
   usc,
   nipyum,
-  portfolio,
+  binhi,
+  logo,
   profile,
-  stamp
+  stamp,
 };

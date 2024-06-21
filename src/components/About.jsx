@@ -40,21 +40,17 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Me and my goals</h2>
+        <h2 className={styles.sectionHeadText}>Who We Are and Our Goals</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Hi there! I am Russel Yasol , a passionate Computer Science Student with
-        a love for coding and a deep interest in Artificial Intelligence . When
-        I'm not immersed in tech, you can find me stargazing and cuddling with
-        my feline friends . Ready to see what I've been working on? Just scroll
-        down and explore my portfolio!
+        Asterix is a dynamic software solutions provider specializing in AI, networking, and web development. We offer cutting-edge services designed to meet the evolving needs of businesses in the digital age. Our mission is to develop cost-effective and innovative technologies that make a positive impact on the world. At Asterix, we're committed to pushing the boundaries of what's possible in software, delivering solutions that drive efficiency and foster progress across industries.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap justify-center gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

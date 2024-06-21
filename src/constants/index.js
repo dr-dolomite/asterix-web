@@ -13,13 +13,13 @@ import {
   git,
   figma,
   docker,
-  mes,
-  acc,
-  cict,
+  threejs,
+  python,
   usc,
   nipyum,
-  portfolio,
-  threejs,
+  binhi,
+  logo,
+
 } from "../assets";
 
 export const navLinks = [
@@ -39,19 +39,23 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Asterix Logo",
+    icon: logo,
+  },
+  {
+    title: "Web Development",
     icon: web,
   },
+  // {
+  //   title: "React Frameworks",
+  //   icon: mobile,
+  // },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Networking Services",
     icon: backend,
   },
   {
-    title: "Machine Learning Engineer",
+    title: "Machine Learning and AI",
     icon: creator,
   },
 ];
@@ -101,48 +105,10 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
-];
-
-const experiences = [
   {
-    title: "Malinao Elementary School",
-    company_name: "Elementary",
-    icon: mes,
-    iconBg: "#383E56",
-    date: "June 2008 - March 2014",
-    points: [
-      "I skipped kindergaten and directly enrolled in Grade I.",
-      "I was promoted to the Star Section (SPED) when I reached Grade II.",
-      "I participated in various extracurricular activities, particularly in BSP and academic workshops for journalism.",
-      "I finished elementary school with academic honors, except during Grade II.",
-    ],
-  },
-  {
-    title: "Aklan Catholic College",
-    company_name: "Junior & Senior High School",
-    icon: acc,
-    iconBg: "#383E56",
-    date: "Jan 2014 - March 2020",
-    points: [
-      "My first experience studying outside of my town.",
-      "I finished high school as one of the top students across all sections.",
-      "I developed and implemented the first automated student council government election in my school.",
-      "I graduated from senior high school with academic honors and ranked in the top 5% of all students.",
-    ],
-  },
-  {
-    title: "WVSU - College of ICT",
-    company_name: "College",
-    icon: cict,
-    iconBg: "#383E56",
-    date: "August 2020 - Current",
-    points: [
-      "I received a silver medal award upon completing my freshman year.",
-      "I received a gold medal award upon completing my sophomore year.",
-      "I participated in a team for the Hackathon 2021 event.",
-      "I joined CITE as the main front-end developer for the USC Infosite project.",
-    ],
-  },
+    name: "python",
+    icon: python,
+  }
 ];
 
 const projects = [
@@ -171,7 +137,7 @@ const projects = [
   {
     name: "Nippon Yum",
     description:
-      "Discover NipponYum (NipYum), a responsive Japanese restaurant website template featuring online ordering and payment. Our final project showcases our user-friendly design. The website is optimized for different devices and screen sizes, making it accessible to a broader range of customers.",
+      "Discover NipponYum (NipYum), a responsive Japanese restaurant website template featuring online ordering and payment. Our project showcases our user-friendly design. The website is optimized for different devices and screen sizes, making it accessible to a broader range of customers.",
     tags: [
       {
         name: "html",
@@ -187,13 +153,13 @@ const projects = [
       },
     ],
     image: nipyum,
-    web_link: 'https://fastnetphbyrus.com/NipponYum/',
-    source_code_link: "https://github.com/r-amee/NipYumWeb",
+    web_link: '#',
+    source_code_link: "#",
   },
   {
-    name: "Portfolio Madness",
+    name: "BINHI Website",
     description:
-      "Welcome to Portfolio Madness, a personal web portfolio showcasing my skills and experiences through a space-themed design and eye-catching web animations. My portfolio represents my passion for learning and my commitment to delivering high-quality work.",
+      "BINHI is an incubation program that aims to support and nurture the growth of startups in the Philippines. The website is designed to provide information about the program and its services. It features a clean and modern design that is easy to navigate. The website is built using Next.js.",
     tags: [
       {
         name: "nextjs",
@@ -208,10 +174,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: portfolio,
-    web_link: 'https://portfolio-madness.vercel.app/',
-    source_code_link: "https://github.com/r-amee/PortfolioMadness",
+    image: binhi,
+    web_link: 'https://binhi.wvsu.edu.ph',
+    source_code_link: "#",
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, projects };
